@@ -2,12 +2,12 @@
 // titulo.innerHTML = 'Jogo do número secreto!';
 
 // let paragrafo = document.querySelector('p');
-// paragrafo.innerHTML = 'Escolha um número entre 1 e 10';
+// paragrafo.innerHTML = 'Escolha um número entre 1 e 100';
 
 
 
 let listaNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
